@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="rdoDistribuidor">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="btnBorrar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="btnContinuar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblErrorSucursal" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblErrorDistribuidor" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblErrorCantidad" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblErrorTipo" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblErrorNombre" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblNombre1" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNombre" min="-2" pref="287" max="-2" attributes="0"/>
+                  <Component id="cobTipo" min="-2" pref="287" max="-2" attributes="0"/>
+                  <Component id="lblCantidad" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtCantidad" min="-2" pref="287" max="-2" attributes="0"/>
+                  <Component id="lblDistribuidor" min="-2" max="-2" attributes="0"/>
+                  <Component id="Cofarma" min="-2" max="-2" attributes="0"/>
+                  <Component id="Empsephar" min="-2" max="-2" attributes="0"/>
+                  <Component id="Cemefar" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblSucursal" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkPrincipal" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkSecundaria" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTipo" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="155" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="15" max="32767" attributes="0"/>
+              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="lblNombre1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+              <Component id="txtNombre" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblErrorNombre" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="lblTipo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+              <Component id="cobTipo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblErrorTipo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblCantidad" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+              <Component id="txtCantidad" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblErrorCantidad" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblDistribuidor" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+              <Component id="Cofarma" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="9" pref="9" max="-2" attributes="0"/>
+              <Component id="Empsephar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="9" pref="9" max="-2" attributes="0"/>
+              <Component id="Cemefar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblErrorDistribuidor" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="lblSucursal" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+              <Component id="chkPrincipal" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="9" pref="9" max="-2" attributes="0"/>
+              <Component id="chkSecundaria" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblErrorSucursal" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnContinuar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnBorrar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblNombre1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre del medicamento:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTipo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tipo del medicamento:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCantidad">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cantidad del medicamento:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDistribuidor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre del distribuidor:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSucursal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sucursal de la farmacia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNombre">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cobTipo">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="6">
+            <StringItem index="0" value="analg&#xe9;sico"/>
+            <StringItem index="1" value="anal&#xe9;ptico"/>
+            <StringItem index="2" value="anest&#xe9;sico"/>
+            <StringItem index="3" value="anti&#xe1;cido"/>
+            <StringItem index="4" value="antidepresivo"/>
+            <StringItem index="5" value="antibi&#xf3;ticos"/>
+          </StringArray>
+        </Property>
+        <Property name="selectedIndex" type="int" value="-1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cobTipoActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCantidad">
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Cofarma">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="rdoDistribuidor"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cofarma"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CofarmaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Empsephar">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="rdoDistribuidor"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Empsephar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Cemefar">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="rdoDistribuidor"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cemefar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkPrincipal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Principal"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chkPrincipalActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkSecundaria">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Secundaria"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBorrar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Borrar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBorrarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnContinuar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnContinuarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblErrorNombre">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblErrorTipo">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblErrorCantidad">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblErrorDistribuidor">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblErrorSucursal">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="FARMACIA UNIR"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
